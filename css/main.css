@@ -1,0 +1,32 @@
+.header{
+    
+    display: flex;
+    background-color: black;
+    margin: 0%;
+    color: red;
+    width: 100%;
+    height: 100%;
+    
+}
+.navegacion{
+    justify-content: flex-start;
+}
+
+.menu-principal{
+    
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.logo-claaran{
+    width: 100px;
+    
+}
+
+.link-menu{
+   
+    text-decoration:  none;
+    color: pink;
+    
+}
