@@ -85,3 +85,56 @@
     height: 100%;
     object-fit: cover;
 } */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #42A5FF;
+    padding: 2rem 0;
+    bottom: 0;
+    position: absolute;
+    width: 100vw;
+}
+
+
+.container__info {
+    padding: 2rem 0;
+}
+
+.fa-brands {
+    display: block;
+    font-size: 34px;
+
+}
+
+.container__RedesSociales {
+    padding: 1rem 0;
+    gap: 15px;
+    display: flex;
+}
+
+form {
+    flex-direction: column;
+    display: flex;
+}
+
+.container__input {
+    margin-bottom: 1rem;
+}
+
+.container__input {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    }
+
+    input.container__button {
+        width: 5rem;
+        height: 2rem;
+        background: white;
+        border: none;
+        border-radius: 9px;
+        margin: 0 auto;
+        }
+
