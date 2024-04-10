@@ -15,10 +15,11 @@
 
 .go-login {
     color: white;
+   
 }
 
 .btn-login {
-    background-color: orange;
+    background-color: #42A5FF;
     color: black;
     text-decoration: none;
     padding: .4rem 1.6rem;
@@ -26,11 +27,12 @@
     display: block;
     margin: 0 auto;
     margin-top: 2rem;
-    width: 3rem;
+    width: 6rem;
+    border-radius: 10%;
 }
 
 .back-img {
-    background-image: url(../images/imagenprueba.jpg);
+    background-image: url(../images/barco.jpg);
     background-size: cover;
     object-fit: cover;
     width: 100vw;
@@ -43,16 +45,21 @@
     /* background: black; */
     height: 100vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .about {
-    background: orange;
-    width: 50%;
-    height: 20rem;
+    background: #42A5FF;
+    width: 43rem;
+    height: 28rem;
+    margin: 50px;
+    align-content: center;
+    padding: 2rem 7rem 2rem 8rem;
 }
 
+
 .about-image {
-    background: blue;
     width: 20rem;
     height: 20rem;
 }
@@ -60,7 +67,7 @@
 .about-image img {
     width: 24rem;
     position: absolute;
-    margin: 2rem -14rem;
+    margin: 2rem -8rem;
 
 }
 
@@ -68,10 +75,12 @@
     align-items: center;
     justify-content: center;
     align-content: center;
+    text-align: center;
 }
 
 .servicios.d-flex.container.d-flex.container {
     justify-content: center;
+    padding: 0rem 0rem 8rem 0rem;
 }
 
 .btn {
@@ -86,14 +95,13 @@
     object-fit: cover;
 } */
 
-.container {
+.container-footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background: #42A5FF;
     padding: 2rem 0;
     bottom: 0;
-    position: absolute;
     width: 100vw;
 }
 
