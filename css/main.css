@@ -1,11 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-about .content-about {
+    flex-basis: 60%;
+    height: 530px;
+    position: relative;
+}
+
 section.section-about {
     display: flex;
     width: 88%;
     margin: 0 auto;
     position: relative;
+    padding: 4rem 0;
+    flex-direction: column;
 }
 
+.content-about {
+    background: #42A5FF;
+    padding: 2.6rem 1.2rem 1.2rem 1.2rem;
+    text-align: justify;
+}
 
+.about {
+    background: #42A5FF;
+    height: 23rem;
+    margin: 50px;
+    align-content: center;
+    padding: 0 2rem;
+}
 
 .image-about {
     background: orange;
@@ -17,42 +42,18 @@ section.section-about {
     object-fit: cover;
 }
 
-.section-about .content-about {
-    flex-basis: 60%;
-    height: 440px;
-    position: relative;
-}
-
-/* mobile */
-.content-about {
-    background: blue;
-    padding: 3rem 2.5rem;
-}
-.about {
-    background: #42A5FF;
-    /* width: 43rem; */
-    height: 23rem;
-    margin: 50px;
-    align-content: center;
-    padding: 0 2rem;
-}
-
-section.section-about {
-    display: flex;
-    width: 88%;
-    margin: 0 auto;
-    position: relative;
-    flex-direction: column;
-}   
 .section-about .image-about {
     flex-basis: 40%;
     height: 320px;
     width: 100%;
     flex-direction: column;
 }
+
 @media (min-width: 768px) {
     .content-about {
-        padding: 5rem 6rem 5rem 2.5rem;
+         padding: 2.2rem 5rem 1.2rem 1.2rem;
+         height: 380px;
+         overflow: hidden;
     }
     section.section-about {
         flex-direction: row;
@@ -61,11 +62,9 @@ section.section-about {
         position: absolute;
         width: 48%;
         right: -1px;
-        top: 60px;
+        top: 183px;
     }
 }
-    
-
 
 .about-image img {
     width: 100%;
@@ -73,12 +72,44 @@ section.section-about {
     padding: 50px;
 }
 
-
 .servicios {
     text-align: center;
 }
+.back-img {
+    background-image: url(../images/barco.jpg);
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 74vh;
+    text-align: center;
+    align-content: center;
+}
+.go-login {
+    color: white;
+}
+.btn-login {
+    background-color: #42A5FF;
+    color: black;
+    text-decoration: none;
+    padding: .4rem 1.6rem;
+    font-weight: 600;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 6rem;
+    border-radius: 10%;
+}
 
+@media (min-width: 992px) {
+    .content-about h2 {
+        margin: 2rem 0;
+    }
+    .content-about {
+        padding: 3rem 7rem 1.6rem 1.6rem;
+    }
+}
 
+/* mediaqueries del header */
 @media screen and (min-width: 768px) {
 
     .header {
@@ -120,11 +151,7 @@ section.section-about {
         
     }
     
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+   
     
     .a {
         background-color: blueviolet;
@@ -136,34 +163,7 @@ section.section-about {
         font-size: x-large;
     }
     
-    .go-login {
-        color: white;
-       
-    }
-    
-    .btn-login {
-        background-color: #42A5FF;
-        color: black;
-        text-decoration: none;
-        padding: .4rem 1.6rem;
-        font-weight: 600;
-        display: block;
-        margin: 0 auto;
-        margin-top: 2rem;
-        width: 6rem;
-        border-radius: 10%;
-    }
-    
-    
-    .back-img {
-        background-image: url(../images/barco.jpg);
-        background-size: cover;
-        object-fit: cover;
-        width: 100vw;
-        height: 74vh;
-        text-align: center;
-        align-content: center;
-    }
+
     
     .general {
         /* background: black; */
@@ -335,34 +335,8 @@ section.section-about {
         font-size: x-large;
     }
     
-    .go-login {
-        color: white;
-       
-    }
+
     
-    .btn-login {
-        background-color: #42A5FF;
-        color: black;
-        text-decoration: none;
-        padding: .4rem 1.6rem;
-        font-weight: 600;
-        display: block;
-        margin: 0 auto;
-        margin-top: 2rem;
-        width: 6rem;
-        border-radius: 10%;
-    }
-    
-    
-    .back-img {
-        background-image: url(../images/barco.jpg);
-        background-size: cover;
-        object-fit: cover;
-        width: 100vw;
-        height: 74vh;
-        text-align: center;
-        align-content: center;
-    }
     
     .general {
         /* background: black; */
