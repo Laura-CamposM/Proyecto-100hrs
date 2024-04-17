@@ -1021,6 +1021,7 @@ section.section-servicios {
 
 /* Footer */
 .contenedor {
+    
     display: flex;
     flex-direction: column;
     padding: 0 1rem;
@@ -1095,7 +1096,7 @@ form {
 }
 
 input.container__button {
-    width: 5rem;
+    width: 8rem;
     height: 2rem;
     background:#42A5FF;
     color: white;
@@ -1147,7 +1148,7 @@ input.container__button {
     }
 
     input.container__button {
-        width: 5rem;
+        width: 8rem;
         height: 2rem;
         background: white;
         color: black;
@@ -1203,7 +1204,7 @@ input.container__button {
     }
 
     input.container__button {
-        width: 5rem;
+        width: 8rem;
         height: 2rem;
         background: white;
         border: none;

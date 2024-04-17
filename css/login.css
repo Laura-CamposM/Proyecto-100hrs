@@ -63,7 +63,10 @@ form.formulario {
   display: flex;
   justify-content: center;
 }
-
+#link-enviar{
+  text-decoration: none;
+  color: black;
+}
 @media(min-width: 768px) {
   .contenedor {
     flex-direction: row;
