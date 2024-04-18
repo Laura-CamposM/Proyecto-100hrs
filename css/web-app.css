@@ -144,7 +144,7 @@
   }
   
   input.container__button {
-      width: 5rem;
+      width: 7rem;
       height: 2rem;
       background:#42A5FF;
       color: white;
@@ -196,7 +196,7 @@
       }
   
       input.container__button {
-          width: 5rem;
+          width: 7rem;
           height: 2rem;
           background: white;
           color: black;
@@ -252,7 +252,7 @@
       }
   
       input.container__button {
-          width: 8rem;
+          width: 7rem;
           height: 2rem;
           background: white;
           border: none;

@@ -43,7 +43,7 @@ body {
 h2 {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
 }
 
@@ -72,10 +72,6 @@ form.formulario {
     flex-direction: row;
   }
 
-  .contenedor_image {
-    /* width: 21rem;
-    padding: 5rem; */
-  }
 
   form.formulario {
     margin: 2rem auto;
